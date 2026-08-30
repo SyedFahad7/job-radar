@@ -49,12 +49,28 @@ export default async function SweepDetailPage({
       <div className="mt-6">
         <SweepPanel sweep={sweep} jobCount={jobs.length} />
       </div>
-      <div className="mt-8 overflow-hidden rounded-sm border border-line">
-        <JobTableHeader />
-        {jobs.map((job) => (
-          <JobRow key={job.slug} job={job} sweep={sweep} queryString="" />
-        ))}
-      </div>
+      {jobs.length === 0 ? (
+        <div className="mt-8 rounded-sm border border-dashed border-line px-5 py-14 text-center">
+          <p className="font-mono text-[10px] uppercase tracking-[0.22em] text-accent">
+            0 roles
+          </p>
+          <p className="mt-3 font-serif text-2xl text-ink">
+            No new contacts this window.
+          </p>
+          <p className="mx-auto mt-3 max-w-lg font-mono text-[12px] leading-relaxed text-muted">
+            This sweep logged a dated pass with no qualifying intern-to-mid
+            DevRel listings first posted in the window. Earlier roles stay on
+            their original sweep.
+          </p>
+        </div>
+      ) : (
+        <div className="mt-8 overflow-hidden rounded-sm border border-line">
+          <JobTableHeader />
+          {jobs.map((job) => (
+            <JobRow key={job.slug} job={job} sweep={sweep} queryString="" />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
