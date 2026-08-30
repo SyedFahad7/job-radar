@@ -1,1 +1,37 @@
-PLACEHOLDER_LOAD_FROM_FILE
+{
+  "fx": {
+    "usdInr": 95.592676,
+    "note": "1 USD = ₹95.59 · 1 EUR = ₹111.30 · 1 GBP = ₹129.81 (ExchangeRate-API, 28 Aug 2026 00:02 UTC)",
+    "asOf": "2026-08-28"
+  },
+  "lastSweepDate": "2026-08-29",
+  "sweeps": [
+    {
+      "id": "2026-08-29-first",
+      "label": "First sweep",
+      "surfacedAt": "2026-08-29",
+      "windowStart": null,
+      "windowEnd": "2026-08-29",
+      "notes": "Initial intern-to-mid DevRel search across LinkedIn, YC, Wellfound, Ashby, Greenhouse, Lever, Workable, company pages."
+    }
+  ],
+  "jobs": [
+    {
+      "title": "Developer Advocate (DevRel)",
+      "company": "Signadot (YC W20)",
+      "level": "Mid",
+      "location": "Remote US/Canada/LatAm/Spain; US visa",
+      "locationTag": "Remote-US",
+      "posted": "Not listed (YC jobs ~1 day ago in earlier sweep)",
+      "postedSort": "2026-08-28",
+      "status": "OPEN",
+      "source": "YC",
+      "applyUrl": "https://www.ycombinator.com/companies/signadot/jobs/JE44NtI-developer-advocate-devrel",
+      "evidence": "YC Apply to role. YC index showed this ~1 day before 29 Aug sweep.",
+      "flag": "ok",
+      "salaryRaw": "$120k–$170k",
+      "salaryInr": "₹1.15 Cr – ₹1.63 Cr",
+      "sweepId": "2026-08-29-first"
+    }
+  ]
+}
