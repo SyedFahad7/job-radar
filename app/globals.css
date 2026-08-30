@@ -1,0 +1,69 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #080a09;
+  --bg-elev: #101412;
+  --ink: #efe8d4;
+  --muted: #8f9688;
+  --line: #1c2620;
+  --accent: #c8f04d;
+  --accent-dim: #8aa636;
+  --stale: #e0b15a;
+  --closed: #ff6b4a;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-bg-elev: var(--bg-elev);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-accent: var(--accent);
+  --color-accent-dim: var(--accent-dim);
+  --color-stale: var(--stale);
+  --color-closed: var(--closed);
+  --font-serif: var(--font-display);
+  --font-mono: var(--font-ibm);
+}
+
+html {
+  background: var(--bg);
+  color: var(--ink);
+}
+
+body {
+  min-height: 100dvh;
+  background:
+    radial-gradient(
+      ellipse 80% 42% at 50% -12%,
+      rgba(200, 240, 77, 0.08),
+      transparent 55%
+    ),
+    radial-gradient(
+      circle at 100% 100%,
+      rgba(200, 240, 77, 0.035),
+      transparent 36%
+    ),
+    var(--bg);
+  color: var(--ink);
+}
+
+::selection {
+  background: color-mix(in srgb, var(--accent) 35%, transparent);
+  color: var(--ink);
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
