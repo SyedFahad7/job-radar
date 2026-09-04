@@ -1,5 +1,6 @@
 /** Convert a seed `salaryInr` string into an annual-INR sort key. Unknown → null. */
-export function salarySortValue(salaryInr: string): number | null {
+export function salarySortValue(salaryInr: string | null | undefined): number | null {
+  if (salaryInr == null) return null;
   const text = salaryInr.trim();
   if (!text || /^not listed/i.test(text)) return null;
   if (/^unpaid$/i.test(text)) return 0;

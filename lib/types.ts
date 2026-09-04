@@ -1,4 +1,4 @@
-export type LocationTag = "India" | "Remote" | "Remote-US" | "US";
+export type LocationTag = "India" | "Remote" | "Remote-US" | "US" | "Hybrid-US-CA";
 
 export type RawStatus = "OPEN" | "OPEN (STALE)" | "CLOSED";
 
@@ -41,14 +41,16 @@ export type RawJob = {
   applyUrl: string;
   evidence: string;
   flag: RawFlag;
-  salaryRaw: string;
-  salaryInr: string;
+  salaryRaw: string | null;
+  salaryInr: string | null;
   sweepId: string;
 };
 
 export type Catalog = {
   fx: {
     usdInr: number;
+    eurInr?: number;
+    gbpInr?: number;
     note: string;
     asOf: string;
   };

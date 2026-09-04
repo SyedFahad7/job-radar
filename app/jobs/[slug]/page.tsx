@@ -131,7 +131,7 @@ function Fact({
   hint,
 }: {
   label: string;
-  value: string;
+  value: string | null;
   hint?: string;
 }) {
   return (
@@ -139,7 +139,7 @@ function Fact({
       <dt className="font-mono text-[10px] uppercase tracking-[0.18em] text-muted">
         {label}
       </dt>
-      <dd className="mt-1 text-[15px] leading-snug text-ink">{value}</dd>
+      <dd className="mt-1 text-[15px] leading-snug text-ink">{value ?? "—"}</dd>
       {hint && hint !== value && (
         <p className="mt-1 font-mono text-[11px] text-muted">{hint}</p>
       )}
