@@ -1,10 +1,12 @@
 {
   "fx": {
-    "usdInr": 95.592676,
-    "note": "1 USD = ₹95.59 · 1 EUR = ₹111.30 · 1 GBP = ₹129.81 (ExchangeRate-API, 28 Aug 2026 00:02 UTC)",
-    "asOf": "2026-08-28"
+    "usdInr": 94.54,
+    "eurInr": 109.79,
+    "gbpInr": 127.71,
+    "asOf": "2026-09-04",
+    "note": "1 USD = ₹94.54 · 1 EUR = ₹109.79 · 1 GBP = ₹127.71 (ExchangeRate-API, 04 Sep 2026)"
   },
-  "lastSweepDate": "2026-08-31",
+  "lastSweepDate": "2026-09-04",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -21,6 +23,14 @@
       "windowStart": "2026-08-30",
       "windowEnd": "2026-08-31",
       "notes": "Incremental intern-to-mid DevRel search. 0 new qualifying roles first posted in this 48-hour window. Checked LinkedIn 24h/48h, YC, Wellfound, Ashby, Greenhouse, Lever, Workable, company pages. Weekend LinkedIn traffic was senior/manager/director or ATS posts first-published before 30 Aug."
+    },
+    {
+      "id": "2026-09-04-weekday",
+      "label": "4 Sep weekday",
+      "surfacedAt": "2026-09-04",
+      "windowStart": "2026-09-01",
+      "windowEnd": "2026-09-04",
+      "notes": "Weekday incremental after 2026-08-31 site lastSweep. Prior catch-up/weekday hunts through 2026-09-03 found 0. 1 new: Mistral AI Developer Relations Engineer (Ashby publishedAt 2026-09-03T20:57:30Z). Live JD mid/unspecified (no Senior/Staff/5+ yrs). ATS slug list had missed mistral.ai board."
     }
   ],
   "jobs": [
@@ -873,6 +883,23 @@
       "salaryRaw": "Not listed",
       "salaryInr": "Not listed",
       "sweepId": "2026-08-29-first"
+    },
+    {
+      "title": "AI Developer Relations Engineer",
+      "company": "Mistral AI",
+      "level": "Mid",
+      "location": "San Francisco / Palo Alto, CA (Hybrid)",
+      "locationTag": "Hybrid-US-CA",
+      "posted": "2026-09-03 (Ashby publishedAt 20:57 UTC)",
+      "postedSort": "2026-09-03",
+      "status": "OPEN",
+      "source": "Ashby",
+      "applyUrl": "https://jobs.ashbyhq.com/mistral.ai/c1d29d94-c1d5-4168-92fd-a01cc176e471",
+      "evidence": "Ashby posting-api job-board/mistral.ai id c1d29d94-c1d5-4168-92fd-a01cc176e471; publishedAt 2026-09-03T20:57:30.769Z; apply HTTP 200 OPEN. Live JD: Master's/equiv, Python, AI ecosystem, docs/community — no Senior/Staff title, no 5+ yrs line.",
+      "flag": "ok",
+      "salaryRaw": null,
+      "salaryInr": null,
+      "sweepId": "2026-09-04-weekday"
     }
   ]
 }
