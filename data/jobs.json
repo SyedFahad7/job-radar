@@ -1,12 +1,12 @@
 {
   "fx": {
-    "usdInr": 94.54,
-    "eurInr": 109.79,
-    "gbpInr": 127.71,
-    "asOf": "2026-09-04",
-    "note": "1 USD = ₹94.54 · 1 EUR = ₹109.79 · 1 GBP = ₹127.71 (ExchangeRate-API, 04 Sep 2026)"
+    "usdInr": 95.51,
+    "eurInr": 110.86,
+    "gbpInr": 129.03,
+    "asOf": "2026-09-11",
+    "note": "1 USD = ₹95.51 · 1 EUR = ₹110.86 · 1 GBP = ₹129.03 (ExchangeRate-API, 11 Sep 2026)"
   },
-  "lastSweepDate": "2026-09-04",
+  "lastSweepDate": "2026-09-11",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -31,6 +31,14 @@
       "windowStart": "2026-09-01",
       "windowEnd": "2026-09-04",
       "notes": "Weekday incremental after 2026-08-31 site lastSweep. Prior catch-up/weekday hunts through 2026-09-03 found 0. 1 new: Mistral AI Developer Relations Engineer (Ashby publishedAt 2026-09-03T20:57:30Z). Live JD mid/unspecified (no Senior/Staff/5+ yrs). ATS slug list had missed mistral.ai board."
+    },
+    {
+      "id": "2026-09-11-weekday",
+      "label": "11 Sep weekday",
+      "surfacedAt": "2026-09-11",
+      "windowStart": "2026-09-11",
+      "windowEnd": "2026-09-11",
+      "notes": "Weekday incremental after lastSweepDate 2026-09-10 memory cutoff (site was still 2026-09-04). Window after 2026-09-10T18:30Z. 1 new: OpenAI Developer Experience Engineer, Cyber (Ashby publishedAt 2026-09-11T02:51:53Z). DX/advocacy fit on Codex DX team. Boards/web/X found 0 other intern-junior-mid DevRel."
     }
   ],
   "jobs": [
@@ -900,6 +908,23 @@
       "salaryRaw": null,
       "salaryInr": null,
       "sweepId": "2026-09-04-weekday"
+    },
+    {
+      "title": "Developer Experience Engineer, Cyber",
+      "company": "OpenAI",
+      "level": "Mid",
+      "location": "San Francisco",
+      "locationTag": "US",
+      "posted": "2026-09-11 (Ashby publishedAt 02:51 UTC)",
+      "postedSort": "2026-09-11",
+      "status": "OPEN",
+      "source": "Ashby",
+      "applyUrl": "https://jobs.ashbyhq.com/openai/708121e8-51ac-4a24-a2ff-bd9889ba5486",
+      "evidence": "Ashby posting-api job-board/openai id 708121e8-51ac-4a24-a2ff-bd9889ba5486; publishedAt 2026-09-11T02:51:53.931Z; apply HTTP 200 OPEN. Codex Developer Experience team; demos/content/events/workshops; JD says advocate. No Senior/Staff title; no years/salary lines on JD.",
+      "flag": "ok",
+      "salaryRaw": null,
+      "salaryInr": null,
+      "sweepId": "2026-09-11-weekday"
     }
   ]
 }
