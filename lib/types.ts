@@ -1,4 +1,4 @@
-export type LocationTag = "India" | "Remote" | "Remote-US" | "US" | "Hybrid-US-CA";
+export type LocationTag = "India" | "Remote" | "Remote-US" | "US" | "Hybrid-US-CA" | "US-Seattle";
 
 export type RawStatus = "OPEN" | "OPEN (STALE)" | "CLOSED";
 
