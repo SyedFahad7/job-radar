@@ -1,12 +1,12 @@
 {
   "fx": {
-    "usdInr": 95.51,
-    "eurInr": 110.86,
-    "gbpInr": 129.03,
-    "asOf": "2026-09-11",
-    "note": "1 USD = ₹95.51 · 1 EUR = ₹110.86 · 1 GBP = ₹129.03 (ExchangeRate-API, 11 Sep 2026)"
+    "usdInr": 95.67,
+    "eurInr": 110.31,
+    "gbpInr": 128.91,
+    "asOf": "2026-09-15",
+    "note": "1 USD = ₹95.67 · 1 EUR = ₹110.31 · 1 GBP = ₹128.91 (ExchangeRate-API, 15 Sep 2026)"
   },
-  "lastSweepDate": "2026-09-11",
+  "lastSweepDate": "2026-09-15",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -39,6 +39,14 @@
       "windowStart": "2026-09-11",
       "windowEnd": "2026-09-11",
       "notes": "Weekday incremental after lastSweepDate 2026-09-10 memory cutoff (site was still 2026-09-04). Window after 2026-09-10T18:30Z. 1 new: OpenAI Developer Experience Engineer, Cyber (Ashby publishedAt 2026-09-11T02:51:53Z). DX/advocacy fit on Codex DX team. Boards/web/X found 0 other intern-junior-mid DevRel."
+    },
+    {
+      "id": "2026-09-15-weekday",
+      "label": "15 Sep weekday",
+      "surfacedAt": "2026-09-15",
+      "windowStart": "2026-09-14",
+      "windowEnd": "2026-09-15",
+      "notes": "Weekday incremental after prior run ~2026-09-14 03:40Z (gap-aware). 1 new: Synthesia Developer Advocate (Ashby publishedAt 2026-09-14T14:47:27Z). Missed by Sep 14 morning sweep. X/web Exa otherwise empty."
     }
   ],
   "jobs": [
@@ -925,6 +933,23 @@
       "salaryRaw": null,
       "salaryInr": null,
       "sweepId": "2026-09-11-weekday"
+    },
+    {
+      "title": "Developer Advocate",
+      "company": "Synthesia",
+      "level": "Mid",
+      "location": "Seattle, WA (hybrid / remote friendly per JD)",
+      "locationTag": "US-Seattle",
+      "posted": "2026-09-14 (Ashby publishedAt 14:47 UTC)",
+      "postedSort": "2026-09-14",
+      "status": "OPEN",
+      "source": "Ashby",
+      "applyUrl": "https://jobs.ashbyhq.com/synthesia/8d3e4a1a-9e84-4785-ba0f-98154a5b259f",
+      "evidence": "Ashby posting-api synthesia id 8d3e4a1a-9e84-4785-ba0f-98154a5b259f; publishedAt 2026-09-14T14:47:27.717Z; apply HTTP 200 OPEN. First Developer Advocate role; JD asks DevRel/evangelism experience but no Senior/Staff title and no 5+ yrs or $200k salary line. Distinct from older board URL synthesia/3e67c3b7-…. Surfaced as gap catch after 2026-09-14 morning sweep.",
+      "flag": "ok",
+      "salaryRaw": null,
+      "salaryInr": null,
+      "sweepId": "2026-09-15-weekday"
     }
   ]
 }

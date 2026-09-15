@@ -69,8 +69,8 @@ function hydrateJobs(jobs: RawJob[]): Job[] {
 
 const jobs = hydrateJobs(data.jobs);
 
-if (jobs.length !== 52) {
-  throw new Error(`Expected 52 seed jobs, found ${jobs.length}`);
+if (jobs.length !== 53) {
+  throw new Error(`Expected 53 seed jobs, found ${jobs.length}`);
 }
 
 const slugs = new Set(jobs.map((job) => job.slug));
