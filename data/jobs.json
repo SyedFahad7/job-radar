@@ -1,12 +1,12 @@
 {
   "fx": {
-    "usdInr": 95.67,
-    "eurInr": 110.31,
-    "gbpInr": 128.91,
-    "asOf": "2026-09-15",
-    "note": "1 USD = ₹95.67 · 1 EUR = ₹110.31 · 1 GBP = ₹128.91 (ExchangeRate-API, 15 Sep 2026)"
+    "usdInr": 95.99,
+    "eurInr": 110.66,
+    "gbpInr": 129.25,
+    "asOf": "2026-09-16",
+    "note": "1 USD = ₹95.99 · 1 EUR = ₹110.66 · 1 GBP = ₹129.25 (ExchangeRate-API, 16 Sep 2026)"
   },
-  "lastSweepDate": "2026-09-15",
+  "lastSweepDate": "2026-09-16",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -47,6 +47,14 @@
       "windowStart": "2026-09-14",
       "windowEnd": "2026-09-15",
       "notes": "Weekday incremental after prior run ~2026-09-14 03:40Z (gap-aware). 1 new: Synthesia Developer Advocate (Ashby publishedAt 2026-09-14T14:47:27Z). Missed by Sep 14 morning sweep. X/web Exa otherwise empty."
+    },
+    {
+      "id": "2026-09-16-weekday",
+      "label": "16 Sep weekday",
+      "surfacedAt": "2026-09-16",
+      "windowStart": "2026-09-15",
+      "windowEnd": "2026-09-16",
+      "notes": "Weekday incremental after lastSweepDate 2026-09-15. Strict ATS window after 2026-09-15T18:30Z was empty. 1 gap catch via X: Cloudflare VoidZero Developer Relations Engineer (GH 8190563, first_published 2026-09-15T04:53:09Z). Boards/LI/web 0 other net-new intern-junior-mid DevRel."
     }
   ],
   "jobs": [
@@ -950,6 +958,23 @@
       "salaryRaw": null,
       "salaryInr": null,
       "sweepId": "2026-09-15-weekday"
+    },
+    {
+      "title": "VoidZero Developer Relations Engineer",
+      "company": "Cloudflare",
+      "level": "Mid",
+      "location": "Hybrid — Singapore, Sydney, Tokyo, Seoul, Lisbon, or London",
+      "locationTag": "Remote",
+      "posted": "2026-09-15 (GH first_published 04:53 UTC)",
+      "postedSort": "2026-09-15",
+      "status": "OPEN",
+      "source": "Greenhouse",
+      "applyUrl": "https://boards.greenhouse.io/cloudflare/jobs/8190563?gh_jid=8190563",
+      "evidence": "X @cnakazawa 2026-09-16T00:48:42Z amplifies VoidZero DevRel hire; Greenhouse API id 8190563 first_published 2026-09-15T00:53:09-04:00; apply HTTP 200 OPEN. Title has no Senior/Staff; JD asks 3+ yrs (not 5+); PT salary €54k–€80k mid-range. Gap catch: published ~1h after 2026-09-15 morning ATS (~03:40Z); outside today's strict windowStart 18:30Z but never logged. Not previously on board.",
+      "flag": "ok",
+      "salaryRaw": "€54,000–€80,000 (Portugal-based; other locales not listed)",
+      "salaryInr": "₹5,975,640–₹8,852,800 (from €54k–€80k PT @ €1=₹110.66)",
+      "sweepId": "2026-09-16-weekday"
     }
   ]
 }
