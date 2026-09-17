@@ -1,12 +1,12 @@
 {
   "fx": {
-    "usdInr": 95.99,
-    "eurInr": 110.66,
-    "gbpInr": 129.25,
-    "asOf": "2026-09-16",
-    "note": "1 USD = ₹95.99 · 1 EUR = ₹110.66 · 1 GBP = ₹129.25 (ExchangeRate-API, 16 Sep 2026)"
+    "usdInr": 96.02,
+    "eurInr": 110.47,
+    "gbpInr": 128.88,
+    "asOf": "2026-09-17",
+    "note": "1 USD = ₹96.02 · 1 EUR = ₹110.47 · 1 GBP = ₹128.88 (ExchangeRate-API, 17 Sep 2026)"
   },
-  "lastSweepDate": "2026-09-16",
+  "lastSweepDate": "2026-09-17",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -55,6 +55,14 @@
       "windowStart": "2026-09-15",
       "windowEnd": "2026-09-16",
       "notes": "Weekday incremental after lastSweepDate 2026-09-15. Strict ATS window after 2026-09-15T18:30Z was empty. 1 gap catch via X: Cloudflare VoidZero Developer Relations Engineer (GH 8190563, first_published 2026-09-15T04:53:09Z). Boards/LI/web 0 other net-new intern-junior-mid DevRel."
+    },
+    {
+      "id": "2026-09-17-weekday",
+      "label": "17 Sep weekday",
+      "surfacedAt": "2026-09-17",
+      "windowStart": "2026-09-16",
+      "windowEnd": "2026-09-17",
+      "notes": "Weekday incremental after lastSweepDate 2026-09-16. Strict ATS window after 2026-09-16T18:30Z empty. 1 gap catch: Trigger.dev DevRel (SF Events) Ashby publishedAt 2026-09-16T10:13:29Z. X/LI/web 0 other net-new. Excluded Mistral VP Global DevRel (same gap band)."
     }
   ],
   "jobs": [
@@ -975,6 +983,23 @@
       "salaryRaw": "€54,000–€80,000 (Portugal-based; other locales not listed)",
       "salaryInr": "₹5,975,640–₹8,852,800 (from €54k–€80k PT @ €1=₹110.66)",
       "sweepId": "2026-09-16-weekday"
+    },
+    {
+      "title": "DevRel (SF Events)",
+      "company": "Trigger.dev",
+      "level": "Junior/Mid",
+      "location": "San Francisco, CA (must be SF-based for events; Ashby workplaceType Remote)",
+      "locationTag": "Onsite-US-CA",
+      "posted": "2026-09-16 (Ashby publishedAt 10:13 UTC)",
+      "postedSort": "2026-09-16",
+      "status": "OPEN",
+      "source": "Ashby",
+      "applyUrl": "https://jobs.ashbyhq.com/triggerdev/417480f5-15b0-4a37-84d0-6c3d173191fc",
+      "evidence": "Ashby posting-api triggerdev id 417480f5-15b0-4a37-84d0-6c3d173191fc; publishedAt 2026-09-16T10:13:29.625Z; apply HTTP 200 isListed:true OPEN. Title DevRel (SF Events); JD is SF developer-events advocacy (meetups/YC/conferences), developer background required, no Senior/Staff title, no 5+ yrs / $200k; welcomes very early career. Salary not listed. Gap catch: published after ~2026-09-16T03:40Z prior morning sweep and before strict windowStart 18:30Z; not previously on board.",
+      "flag": "gap-aware",
+      "salaryRaw": null,
+      "salaryInr": null,
+      "sweepId": "2026-09-17-weekday"
     }
   ]
 }
