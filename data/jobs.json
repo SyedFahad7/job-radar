@@ -1,12 +1,12 @@
 {
   "fx": {
-    "usdInr": 96.02,
-    "eurInr": 110.47,
-    "gbpInr": 128.88,
-    "asOf": "2026-09-17",
-    "note": "1 USD = ₹96.02 · 1 EUR = ₹110.47 · 1 GBP = ₹128.88 (ExchangeRate-API, 17 Sep 2026)"
+    "usdInr": 95.96,
+    "eurInr": 110.07,
+    "gbpInr": 128.17,
+    "asOf": "2026-09-18",
+    "note": "1 USD = ₹95.96 · 1 EUR = ₹110.07 · 1 GBP = ₹128.17 (ExchangeRate-API, 18 Sep 2026)"
   },
-  "lastSweepDate": "2026-09-17",
+  "lastSweepDate": "2026-09-18",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -63,6 +63,14 @@
       "windowStart": "2026-09-16",
       "windowEnd": "2026-09-17",
       "notes": "Weekday incremental after lastSweepDate 2026-09-16. Strict ATS window after 2026-09-16T18:30Z empty. 1 gap catch: Trigger.dev DevRel (SF Events) Ashby publishedAt 2026-09-16T10:13:29Z. X/LI/web 0 other net-new. Excluded Mistral VP Global DevRel (same gap band)."
+    },
+    {
+      "id": "2026-09-18-weekday",
+      "label": "18 Sep weekday",
+      "surfacedAt": "2026-09-18",
+      "windowStart": "2026-09-17",
+      "windowEnd": "2026-09-18",
+      "notes": "Weekday incremental after lastSweepDate 2026-09-17. Strict: Akuity DevRel Engineer (GH first_published 2026-09-17T18:35:46Z). Gap-aware: Clera Developer Relations (Ashby publishedAt 2026-09-17T14:03:06Z). ATS lists missed both. Flag Clera pay band top $200k as senior-leaning while title/yrs are Mid."
     }
   ],
   "jobs": [
@@ -1000,6 +1008,40 @@
       "salaryRaw": null,
       "salaryInr": null,
       "sweepId": "2026-09-17-weekday"
+    },
+    {
+      "title": "DevRel Engineer",
+      "company": "Akuity",
+      "level": "Mid",
+      "location": "Remote (US/Canada)",
+      "locationTag": "Remote-NA",
+      "posted": "2026-09-17",
+      "postedSort": "2026-09-17",
+      "status": "OPEN",
+      "source": "Greenhouse",
+      "applyUrl": "https://job-boards.greenhouse.io/akuity/jobs/4393861009",
+      "evidence": "Strict-window include: GH first_published 2026-09-17T18:35:46Z is after preferred windowStart 2026-09-17T18:30:00Z. Live OPEN. Hybrid eng+DevRel (content, support, events, feedback).",
+      "flag": "strict",
+      "salaryRaw": null,
+      "salaryInr": null,
+      "sweepId": "2026-09-18-weekday"
+    },
+    {
+      "title": "Developer Relations",
+      "company": "Clera",
+      "level": "Mid",
+      "location": "Remote US (Birmingham AL base / SF events plus)",
+      "locationTag": "Remote-US",
+      "posted": "2026-09-17",
+      "postedSort": "2026-09-17",
+      "status": "OPEN",
+      "source": "Ashby",
+      "applyUrl": "https://jobs.ashbyhq.com/clera/54c92d73-74bf-4120-a8c3-32bd7170c23f",
+      "evidence": "Gap-aware include: Ashby publishedAt 2026-09-17T14:03:06Z is after yesterday morning sweep (~03:40Z) and before preferred windowStart 18:30Z. Live OPEN.",
+      "flag": "gap-aware",
+      "salaryRaw": "$165,000–$200,000 USD",
+      "salaryInr": "₹15.83M–₹19.19M (FX 1 USD=₹95.96)",
+      "sweepId": "2026-09-18-weekday"
     }
   ]
 }
