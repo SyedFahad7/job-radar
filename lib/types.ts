@@ -2,6 +2,7 @@ export type LocationTag =
   | "India"
   | "Remote"
   | "Remote-US"
+  | "Remote-NA"
   | "US"
   | "Hybrid-US-CA"
   | "US-Seattle"
@@ -15,7 +16,8 @@ export type RawFlag =
   | "stale"
   | "marketplace"
   | "manager-title"
-  | "gap-aware";
+  | "gap-aware"
+  | "strict";
 
 export type StatusKey = "open" | "open-stale" | "closed";
 export type LevelKey = "intern" | "junior-entry" | "mid";
@@ -25,7 +27,8 @@ export type FlagKey =
   | "stale"
   | "marketplace"
   | "manager-title"
-  | "gap-aware";
+  | "gap-aware"
+  | "strict";
 export type SortKey = "posted" | "company" | "salary" | "status";
 
 export type Sweep = {
