@@ -1,12 +1,12 @@
 {
   "fx": {
-    "usdInr": 95.96,
-    "eurInr": 110.07,
-    "gbpInr": 128.17,
-    "asOf": "2026-09-18",
-    "note": "1 USD = ₹95.96 · 1 EUR = ₹110.07 · 1 GBP = ₹128.17 (ExchangeRate-API, 18 Sep 2026)"
+    "usdInr": 96.04,
+    "eurInr": 109.99,
+    "gbpInr": 128.15,
+    "asOf": "2026-09-21",
+    "note": "1 USD = ₹96.04 · 1 EUR = ₹109.99 · 1 GBP = ₹128.15 (ExchangeRate-API, 21 Sep 2026)"
   },
-  "lastSweepDate": "2026-09-18",
+  "lastSweepDate": "2026-09-21",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -71,9 +71,68 @@
       "windowStart": "2026-09-17",
       "windowEnd": "2026-09-18",
       "notes": "Weekday incremental after lastSweepDate 2026-09-17. Strict: Akuity DevRel Engineer (GH first_published 2026-09-17T18:35:46Z). Gap-aware: Clera Developer Relations (Ashby publishedAt 2026-09-17T14:03:06Z). ATS lists missed both. Flag Clera pay band top $200k as senior-leaning while title/yrs are Mid."
+    },
+    {
+      "id": "2026-09-21-weekday",
+      "label": "21 Sep weekday",
+      "surfacedAt": "2026-09-21",
+      "windowStart": "2026-09-18",
+      "windowEnd": "2026-09-21",
+      "notes": "Weekday incremental after lastSweepDate 2026-09-18 (weekend gap). Strict ATS after 2026-09-18T18:30Z empty. Gap-aware after ~2026-09-18T03:40Z: Clera Developer Relations Engineer (Ashby e1c62c54…, distinct from prior Clera DR), Langfuse DevRel Engineer Events & Community EMEA (Ashby clickhouse 49953f5a…), NVIDIA Developer Advocate Agentic AI (Workday JR2017689). X leads only: stealth founding DevRel (Google Form), LithosAI DRE (mailto). LI recirculations (Runpod/Fireworks/Aikido) excluded."
     }
   ],
   "jobs": [
+    {
+      "title": "Developer Advocate – Agentic AI",
+      "company": "NVIDIA",
+      "level": "Mid",
+      "location": "Santa Clara, CA / US CA Remote",
+      "locationTag": "Hybrid-US-CA",
+      "posted": "2026-09-18",
+      "postedSort": "2026-09-18",
+      "status": "OPEN",
+      "source": "Workday",
+      "applyUrl": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Developer-Advocate---Agentic-AI_JR2017689",
+      "evidence": "Workday CXS JR2017689 canApply true; startDate 2026-09-18; listing Posted 2 Days Ago as of 2026-09-21. Live OPEN. JD 5+ yrs — senior-leaning pay/exp while title is Mid.",
+      "flag": "gap-aware",
+      "salaryRaw": "$152,000–$241,500 USD (Level 3) / $184,000–$287,500 USD (higher level)",
+      "salaryInr": "₹14.60M–₹27.61M (FX 1 USD=₹96.04)",
+      "sweepId": "2026-09-21-weekday"
+    },
+    {
+      "title": "Developer Relations Engineer",
+      "company": "Clera",
+      "level": "Mid",
+      "location": "San Francisco, CA (On-site)",
+      "locationTag": "US",
+      "posted": "2026-09-18",
+      "postedSort": "2026-09-18",
+      "status": "OPEN",
+      "source": "Ashby",
+      "applyUrl": "https://jobs.ashbyhq.com/clera/e1c62c54-3e6e-4872-a624-21f5a8d45580",
+      "evidence": "Ashby clera id e1c62c54-3e6e-4872-a624-21f5a8d45580; publishedAt 2026-09-18T17:21:54Z; isListed true; apply HTTP 200. Distinct from existing Clera Developer Relations 54c92d73…. JD 2+ yrs; pay $160–220k senior-leaning top.",
+      "flag": "gap-aware",
+      "salaryRaw": "$160,000–$220,000 USD",
+      "salaryInr": "₹15.37M–₹21.13M (FX 1 USD=₹96.04)",
+      "sweepId": "2026-09-21-weekday"
+    },
+    {
+      "title": "DevRel Engineer, Events & Community (EMEA)",
+      "company": "Langfuse (via ClickHouse)",
+      "level": "Mid",
+      "location": "Remote Europe (Germany; Berlin office cadence)",
+      "locationTag": "Remote",
+      "posted": "2026-09-18",
+      "postedSort": "2026-09-18",
+      "status": "OPEN",
+      "source": "Ashby",
+      "applyUrl": "https://jobs.ashbyhq.com/clickhouse/49953f5a-271a-492f-a8be-50b8f028fbd7",
+      "evidence": "Ashby clickhouse Langfuse-branded role id 49953f5a-271a-492f-a8be-50b8f028fbd7; publishedAt 2026-09-18T13:28:56Z; isListed true; apply HTTP 200; compensation €90K–€160K.",
+      "flag": "gap-aware",
+      "salaryRaw": "€90,000–€160,000 + equity",
+      "salaryInr": "₹9.90M–₹17.60M (FX 1 EUR=₹109.99)",
+      "sweepId": "2026-09-21-weekday"
+    },
     {
       "title": "Developer Advocate (DevRel)",
       "company": "Signadot (YC W20)",
