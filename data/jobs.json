@@ -1,12 +1,12 @@
 {
   "fx": {
-    "usdInr": 95.81,
-    "eurInr": 109.11,
-    "gbpInr": 126.9,
-    "asOf": "2026-09-24",
-    "note": "1 USD = ₹95.81 · 1 EUR = ₹109.11 · 1 GBP = ₹126.90 (ExchangeRate-API, 24 Sep 2026)"
+    "usdInr": 96.02,
+    "eurInr": 109.03,
+    "gbpInr": 126.74,
+    "asOf": "2026-09-25",
+    "note": "1 USD = ₹96.02 · 1 EUR = ₹109.03 · 1 GBP = ₹126.74 (ExchangeRate-API, 25 Sep 2026)"
   },
-  "lastSweepDate": "2026-09-24",
+  "lastSweepDate": "2026-09-25",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -95,9 +95,34 @@
       "windowStart": "2026-09-23",
       "windowEnd": "2026-09-24",
       "notes": "Weekday incremental after lastSweepDate 2026-09-22 (62 jobs; 23 Sep hunt empty). Strict empty for non-senior. Gap-aware: Lambda Developer Relations - Enterprise AI (Ashby). Excluded: GitLab/PagerDuty/SambaNova Senior DA. X lead Modular DR (no discrete apply URL)."
+    },
+    {
+      "id": "2026-09-25-weekday",
+      "label": "25 Sep weekday",
+      "surfacedAt": "2026-09-25",
+      "windowStart": "2026-09-24",
+      "windowEnd": "2026-09-25",
+      "notes": "Weekday incremental after lastSweepDate 2026-09-24 (63 jobs). Strict empty non-senior. Gap-aware: ZenML Developer Relations Engineer SF (X→Notion Active). Excluded Factory Head of DR. X leads Hank Taylor DM-only; Studio1 email-only."
     }
   ],
   "jobs": [
+    {
+      "title": "Developer Relations Engineer (f/m/d)",
+      "company": "ZenML",
+      "level": "Mid",
+      "location": "San Francisco (in-person)",
+      "locationTag": "Onsite",
+      "posted": "2026-09-24",
+      "postedSort": "2026-09-24",
+      "status": "OPEN",
+      "source": "X / ZenML careers + Notion JD",
+      "applyUrl": "https://zenml.notion.site/Developer-Relations-Engineer-f-m-d-San-Francisco-3a3f8dff25388093a9cdd9efc71f30d2",
+      "evidence": "zenml.io/careers lists 'Developer Relations Engineer (f/m/d) - San Francisco' under Open Positions (HTTP 200). Notion JD Status=Active; comp $160K-$220K + stock; apply careers@zenml.io. Surfaced via https://x.com/strickvl/status/2103145320972460497. Not on live board (63 URLs).",
+      "flag": "gap-aware",
+      "salaryRaw": "US: $160,000–$220,000 USD + stock options (Notion JD)",
+      "salaryInr": "₹15.36M–₹21.12M (FX 1 USD=₹96.02)",
+      "sweepId": "2026-09-25-weekday"
+    },
     {
       "title": "Developer Relations - Enterprise AI",
       "company": "Lambda",
