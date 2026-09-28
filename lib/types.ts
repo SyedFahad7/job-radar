@@ -6,7 +6,8 @@ export type LocationTag =
   | "US"
   | "Hybrid-US-CA"
   | "US-Seattle"
-  | "Onsite-US-CA";
+  | "Onsite-US-CA"
+  | "Onsite";
 
 export type RawStatus = "OPEN" | "OPEN (STALE)" | "CLOSED";
 
@@ -17,7 +18,8 @@ export type RawFlag =
   | "marketplace"
   | "manager-title"
   | "gap-aware"
-  | "strict";
+  | "strict"
+  | "newly-surfaced";
 
 export type StatusKey = "open" | "open-stale" | "closed";
 export type LevelKey = "intern" | "junior-entry" | "mid";
@@ -28,7 +30,8 @@ export type FlagKey =
   | "marketplace"
   | "manager-title"
   | "gap-aware"
-  | "strict";
+  | "strict"
+  | "newly-surfaced";
 export type SortKey = "posted" | "company" | "salary" | "status";
 
 export type Sweep = {

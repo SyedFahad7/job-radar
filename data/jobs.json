@@ -1,12 +1,12 @@
 {
   "fx": {
-    "usdInr": 95.81,
-    "eurInr": 109.11,
-    "gbpInr": 126.9,
-    "asOf": "2026-09-24",
-    "note": "1 USD = ₹95.81 · 1 EUR = ₹109.11 · 1 GBP = ₹126.90 (ExchangeRate-API, 24 Sep 2026)"
+    "usdInr": 95.93,
+    "eurInr": 109.13,
+    "gbpInr": 126.86,
+    "asOf": "2026-09-28",
+    "note": "1 USD = ₹95.93 · 1 EUR = ₹109.13 · 1 GBP = ₹126.86 (ExchangeRate-API, 28 Sep 2026)"
   },
-  "lastSweepDate": "2026-09-24",
+  "lastSweepDate": "2026-09-28",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -95,9 +95,59 @@
       "windowStart": "2026-09-23",
       "windowEnd": "2026-09-24",
       "notes": "Weekday incremental after lastSweepDate 2026-09-22 (62 jobs; 23 Sep hunt empty). Strict empty for non-senior. Gap-aware: Lambda Developer Relations - Enterprise AI (Ashby). Excluded: GitLab/PagerDuty/SambaNova Senior DA. X lead Modular DR (no discrete apply URL)."
+    },
+    {
+      "id": "2026-09-25-weekday",
+      "label": "25 Sep weekday",
+      "surfacedAt": "2026-09-25",
+      "windowStart": "2026-09-24",
+      "windowEnd": "2026-09-25",
+      "notes": "Gap-aware ZenML Developer Relations Engineer SF (X→Notion Active). Strict ATS/boards empty non-senior."
+    },
+    {
+      "id": "2026-09-28-weekday",
+      "label": "28 Sep weekday",
+      "surfacedAt": "2026-09-28",
+      "windowStart": "2026-09-25",
+      "windowEnd": "2026-09-28",
+      "notes": "Catch-up: append pending ZenML from 2026-09-25-weekday + Novig from 2026-09-28. Also refresh Clera apply URL to new Ashby id. Update FX and lastSweepDate."
     }
   ],
   "jobs": [
+    {
+      "title": "Developer Relations Engineer",
+      "company": "Novig",
+      "level": "Mid",
+      "location": "New York (Union Square / NYC)",
+      "locationTag": "Onsite",
+      "posted": "2026-09-25",
+      "postedSort": "2026-09-25",
+      "status": "OPEN",
+      "source": "X / Ashby novig",
+      "applyUrl": "https://jobs.ashbyhq.com/novig/719dc79e-9324-4894-a545-849aba99f5d7",
+      "evidence": "Ashby posting-api job-board/novig id 719dc79e… isListed=true; jobs.ashbyhq.com HTTP 200; novig.com/careers/developer-relations-engineer-719dc7 HTTP 200. X https://x.com/NovigCareers/status/2103589429466038697. Not in live board 63 URLs.",
+      "flag": "newly-surfaced",
+      "salaryRaw": "US: $130,000–$180,000 USD base + meaningful equity (Ashby JD)",
+      "salaryInr": "₹12.47M–₹17.27M (FX 1 USD=₹95.93)",
+      "sweepId": "2026-09-28-weekday"
+    },
+    {
+      "title": "Developer Relations Engineer (f/m/d)",
+      "company": "ZenML",
+      "level": "Mid",
+      "location": "San Francisco (in-person)",
+      "locationTag": "Onsite",
+      "posted": "2026-09-24",
+      "postedSort": "2026-09-24",
+      "status": "OPEN",
+      "source": "X / ZenML careers + Notion JD",
+      "applyUrl": "https://zenml.notion.site/Developer-Relations-Engineer-f-m-d-San-Francisco-3a3f8dff25388093a9cdd9efc71f30d2",
+      "evidence": "zenml.io/careers lists 'Developer Relations Engineer (f/m/d) - San Francisco' under Open Positions (HTTP 200). Notion JD Status=Active; comp $160K-$220K + stock; apply careers@zenml.io. Surfaced via https://x.com/strickvl/status/2103145320972460497. Not on live board (63 URLs).",
+      "flag": "gap-aware",
+      "salaryRaw": "US: $160,000–$220,000 USD + stock options (Notion JD)",
+      "salaryInr": "₹15.36M–₹21.12M (FX 1 USD=₹96.02)",
+      "sweepId": "2026-09-25-weekday"
+    },
     {
       "title": "Developer Relations - Enterprise AI",
       "company": "Lambda",
@@ -172,15 +222,15 @@
       "level": "Mid",
       "location": "San Francisco, CA (On-site)",
       "locationTag": "US",
-      "posted": "2026-09-18",
-      "postedSort": "2026-09-18",
+      "posted": "2026-09-26",
+      "postedSort": "2026-09-26",
       "status": "OPEN",
       "source": "Ashby",
-      "applyUrl": "https://jobs.ashbyhq.com/clera/e1c62c54-3e6e-4872-a624-21f5a8d45580",
+      "applyUrl": "https://jobs.ashbyhq.com/clera/571c7147-6f4a-4ce1-a00b-36bdde583f09",
       "evidence": "Ashby clera id e1c62c54-3e6e-4872-a624-21f5a8d45580; publishedAt 2026-09-18T17:21:54Z; isListed true; apply HTTP 200. Distinct from existing Clera Developer Relations 54c92d73…. JD 2+ yrs; pay $160–220k senior-leaning top.",
       "flag": "gap-aware",
       "salaryRaw": "$160,000–$220,000 USD",
-      "salaryInr": "₹15.37M–₹21.13M (FX 1 USD=₹96.04)",
+      "salaryInr": "₹15.35M–₹21.10M (FX 1 USD=₹95.93)",
       "sweepId": "2026-09-21-weekday"
     },
     {
