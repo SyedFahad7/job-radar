@@ -1,12 +1,12 @@
 {
   "fx": {
-    "usdInr": 95.93,
-    "eurInr": 109.13,
-    "gbpInr": 126.86,
-    "asOf": "2026-09-28",
-    "note": "1 USD = ₹95.93 · 1 EUR = ₹109.13 · 1 GBP = ₹126.86 (ExchangeRate-API, 28 Sep 2026)"
+    "usdInr": 96.07,
+    "eurInr": 109.14,
+    "gbpInr": 127.22,
+    "asOf": "2026-09-29",
+    "note": "1 USD = ₹96.07 · 1 EUR = ₹109.14 · 1 GBP = ₹127.22 (ExchangeRate-API, 29 Sep 2026)"
   },
-  "lastSweepDate": "2026-09-28",
+  "lastSweepDate": "2026-09-29",
   "sweeps": [
     {
       "id": "2026-08-29-first",
@@ -111,6 +111,14 @@
       "windowStart": "2026-09-25",
       "windowEnd": "2026-09-28",
       "notes": "Catch-up: append pending ZenML from 2026-09-25-weekday + Novig from 2026-09-28. Also refresh Clera apply URL to new Ashby id. Update FX and lastSweepDate."
+    },
+    {
+      "id": "2026-09-29-weekday",
+      "label": "29 Sep weekday",
+      "surfacedAt": "2026-09-29",
+      "windowStart": "2026-09-28",
+      "windowEnd": "2026-09-29",
+      "notes": "Gap-aware: Langfuse DevRel Engineer Events & Community (AMER) via Ashby clickhouse (publishedAt 2026-09-28T07:40Z). Strict ATS empty. Boards/LI confirmed same URL. X MCP needsAuth — web fallbacks found 0 included. Excluded Thinking Machines Lab DRE (strict, $300–350k / 5+ yrs senior-leaning)."
     }
   ],
   "jobs": [
@@ -1218,6 +1226,23 @@
       "salaryRaw": "$165,000–$200,000 USD",
       "salaryInr": "₹15.83M–₹19.19M (FX 1 USD=₹95.96)",
       "sweepId": "2026-09-18-weekday"
+    },
+    {
+      "title": "DevRel Engineer, Events & Community (AMER)",
+      "company": "Langfuse (via ClickHouse)",
+      "level": "Mid",
+      "location": "Remote United States (preferably San Francisco); significant US travel",
+      "locationTag": "Remote",
+      "posted": "2026-09-28",
+      "postedSort": "2026-09-28",
+      "status": "OPEN",
+      "source": "Ashby / LinkedIn",
+      "applyUrl": "https://jobs.ashbyhq.com/clickhouse/7b0174fe-f124-4db2-923f-7028f39d6be9",
+      "evidence": "Ashby posting-api job-board/clickhouse id 7b0174fe-f124-4db2-923f-7028f39d6be9 isListed=true; publishedAt 2026-09-28T07:40:45.999+00:00; jobs.ashbyhq.com HTTP 200; workplaceType Remote US. Distinct from known EMEA 49953f5a…. Also on LinkedIn guest cards this sweep. Compensation tiers empty on Ashby — pay not listed.",
+      "flag": "gap-aware",
+      "salaryRaw": null,
+      "salaryInr": "Not listed",
+      "sweepId": "2026-09-29-weekday"
     }
   ]
 }
